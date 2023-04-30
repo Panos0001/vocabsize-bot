@@ -1,43 +1,38 @@
-# vocabsize-bot
- This code is indented to let the school take notice and make an anti-cheat to this web page: https://vocabsize.xeersoft.co.th/ ,  if your a student your in luck, your assigments would be done in no time
+# VocabSize
 
-### This Python code uses the Caesar Cipher technique to decode words in a vocabulary size test on the website https://vocabsize.xeersoft.co.th/.
+This script automates the process of solving the [VocabSize website](https://vocabsize.xeersoft.co.th/) assignments. It uses the Caesar Cipher method to decrypt the text and then inputs the answer into the website.
 
-Prerequisites
-To run this code, you need to have Python and pip installed on your system.
+## Prerequisites
 
-- If you don't have Python installed, you can download it from the official website: https://www.python.org/downloads/
+Before running the script, you need to have the following installed:
+- [Python 3](https://www.python.org/downloads/)
+- [pip](https://pip.pypa.io/en/stable/installing/)
 
-- If you don't have pip installed, you can download it by following the instructions here: https://pip.pypa.io/en/stable/installing/
+## Installation
 
-# Installation
-1 Clone this repository to your local machine by running the following command in your terminal:
+1. Clone the repository:
+    ```
+    git clone https://github.com/<Panos0001>/<vocabsize-bot>.git
+    ```
+2. Install the required packages:
+    ```
+    pip install selenium
+    ```
+3. Download the [ChromeDriver](https://sites.google.com/chromium.org/driver/) for your version of Google Chrome.
+4. Extract the `chromedriver.exe` file and place it in the root directory of the repository.
 
-git clone https://github.com/your-username/caesar-cipher-decoder.git
-Alternatively, you can download the code as a ZIP file from the repository's main page.
+## Usage
 
-2 Install the necessary dependencies by running the following command in your terminal:
+1. Run the script:
+    ```
+    python main.py
+    ```
+2. Enter your VocabSize login credentials when prompted.
+3. Wait for the script to assign you work.
+4. Enter the amount of words in the vocabulary list.
+5. Wait for the script to solve each word and input the answer.
+6. Repeat steps 3-5 until you have completed all your assigned work.
 
-pip install selenium
-This will install the selenium package, which is required to automate the web browser.
+## License
 
-3 Download the ChromeDriver executable from the official website: https://sites.google.com/a/chromium.org/chromedriver/downloads
-
-4 Copy the downloaded chromedriver.exe file to the project directory.
-
-# Usage
-1 Open the terminal and navigate to the project directory.
-
-2 Run the following command to start the Python script:
-
-
-python main.py
-3 The script will prompt you to enter the number of words in the vocabulary size test. Enter the number and press Enter.
-
-4 The script will then automate the web browser to decode the words using the Caesar Cipher technique.
-
-# License
-This code is licensed under the MIT License. Feel free to use and modify this code as per your needs.
-
-
-
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
