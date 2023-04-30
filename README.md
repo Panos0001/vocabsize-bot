@@ -1,4 +1,4 @@
-# VocabSize
+# VocabSize-bot
 
 This script automates the process of solving the [VocabSize website](https://vocabsize.xeersoft.co.th/) assignments. It uses the Caesar Cipher method to decrypt the text and then inputs the answer into the website.
 
