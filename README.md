@@ -1,14 +1,14 @@
 # vocabsize-bot
-### This code is indented to let the school take notice and make an anti-cheat to this web page: https://vocabsize.xeersoft.co.th/ ,  if your a student your in luck, your assigments would be done in no time
+ This code is indented to let the school take notice and make an anti-cheat to this web page: https://vocabsize.xeersoft.co.th/ ,  if your a student your in luck, your assigments would be done in no time
 
-# This Python code uses the Caesar Cipher technique to decode words in a vocabulary size test on the website https://vocabsize.xeersoft.co.th/.
+### This Python code uses the Caesar Cipher technique to decode words in a vocabulary size test on the website https://vocabsize.xeersoft.co.th/.
 
 Prerequisites
 To run this code, you need to have Python and pip installed on your system.
 
-If you don't have Python installed, you can download it from the official website: https://www.python.org/downloads/
+- If you don't have Python installed, you can download it from the official website: https://www.python.org/downloads/
 
-If you don't have pip installed, you can download it by following the instructions here: https://pip.pypa.io/en/stable/installing/
+- If you don't have pip installed, you can download it by following the instructions here: https://pip.pypa.io/en/stable/installing/
 
 # Installation
 1 Clone this repository to your local machine by running the following command in your terminal:
