@@ -14,7 +14,7 @@ If you don't have Python installed, you can download it from the official websit
 
 If you don't have pip installed, you can download it by following the instructions here: https://pip.pypa.io/en/stable/installing/
 
-#Installation
+# Installation
 1 Clone this repository to your local machine by running the following command in your terminal:
 
 git clone https://github.com/your-username/caesar-cipher-decoder.git
@@ -29,7 +29,7 @@ This will install the selenium package, which is required to automate the web br
 
 4 Copy the downloaded chromedriver.exe file to the project directory.
 
-#Usage
+# Usage
 1 Open the terminal and navigate to the project directory.
 
 2 Run the following command to start the Python script:
@@ -40,7 +40,7 @@ python main.py
 
 4 The script will then automate the web browser to decode the words using the Caesar Cipher technique.
 
-#License
+# License
 This code is licensed under the MIT License. Feel free to use and modify this code as per your needs.
 
 
