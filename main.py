@@ -51,12 +51,12 @@ hint = "/html/body/div[2]/div[3]/div[1]/div/div[2]/div/div/div/div[2]/div/div/di
 lstext = []
 text = "/html/body/div[2]/div[3]/div[1]/div/div[2]/div/div/div/div[2]/div/div/div/table/tbody/tr[1]/td[4]/div/div[1]/div[1]/input"
 
-driver = webdriver.Chrome(r"C:\Users\Panos\Desktop\chromedriver.exe")
+driver = webdriver.Chrome(r"C:\Users\???\?????\chromedriver.exe")
 website = driver.get(r"https://vocabsize.xeersoft.co.th/") 
 
 # Change this to your username and password
-Username = '1001037700'
-Passowrd = 'PVUCF0'
+Username = ''
+Passowrd = ''
 
 #Login Page
 driver.find_element(By.ID,"txt_email").send_keys(Username)
